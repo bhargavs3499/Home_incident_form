@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles2.css">
+    <title>Bhooja Form</title>
+    <link rel="icon" href="images/myhome-bg-removed.png">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/619e2271f6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div><img src="images/myhome-bg-removed.png"></div>
+        <div id="main-heading">Home Bhooja Report Form</div>
+        <div>
+            <form name="form1" action="" target="_self" method="post" id="form11">
+                <div class="white">
+                    <div class="label"><span>1. Name</span></div>
+                    <div class="box">
+                        <textarea rows="1" maxlength="100"></textarea>
+                        <div class="flex">
+                            <span class="black">Required</span>
+                            <span class="counter"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>2. Date of Birth & Age</span></div>
+                    <div class="box">
+                        <textarea rows="1" maxlength="100"></textarea>
+                        <div class="flex">
+                            <span class="black">Required</span>
+                            <span class="counter"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>3. What do you want to learn ?</span></div>
+                    <div class="box">
+                        <input type="radio" name="fav_language" id="guitar" value="Guitar">
+                        <label class="font-black" for="guitar">Guitar</label><br>
+                        <input type="radio" name="fav_language" id="piano" value="Piano">
+                        <label class="font-black" for="piano">Piano</label><br>
+                        <input type="radio" name="fav_language" id="keyboard" value="Electronic keyboard">
+                        <label class="font-black" for="keyboard">Electronic keyboard</label><br>
+                        <input type="radio" name="fav_language" id="drum" value="Drum Kit">
+                        <label class="font-black" for="drum">Drum kit</label><br>
+                        <input type="radio" name="fav_language" id="violin" value="Violin">
+                        <label class="font-black" for="violin">Violin</label><br>
+                        <input type="radio" name="fav_language" id="vocals" value="Pop vocals">
+                        <label class="font-black" for="vocals">Pop vocals</label><br>
+                        <input type="radio" name="fav_language" id="ukulele" value="Ukulele">
+                        <label class="font-black" for="ukulele">Ukulele</label>
+                        <hr>
+                        <div class="flex radio">
+                            <span class="black">Required</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>4. Your Phone no.</span></div>
+                    <div class="box">
+                        <textarea rows="1" maxlength="100"></textarea>
+                        <div class="flex">
+                            <span class="black">Required</span>
+                            <span class="counter"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>5. Address for communication</span></div>
+                    <div class="box">
+                        <textarea rows="1" maxlength="100"></textarea>
+                        <div class="flex">
+                            <span class="black">Required</span>
+                            <span class="counter"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>6. Parent's phone & email</span></div>
+                    <div class="box">
+                        <textarea rows="1" maxlength="100"></textarea>
+                        <div class="flex">
+                            <span class="black">Required</span>
+                            <span class="counter"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>7. Mother's name</span></div>
+                    <div class="box">
+                        <textarea rows="1" maxlength="100"></textarea>
+                        <div class="flex">
+                            <span class="black">Required</span>
+                            <span class="counter"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>8. Father's name</span></div>
+                    <div class="box">
+                        <textarea rows="1" maxlength="100"></textarea>
+                        <div class="flex">
+                            <span class="black">Required</span>
+                            <span class="counter"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>9. Candidate's past exposure to music</span></div>
+                    <div class="box">
+                        <textarea rows="1" maxlength="100"></textarea>
+                        <div class="flex">
+                            <span class="black">Required</span>
+                            <span class="counter"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>10. Preferred 'days & time' of class (mention the student's available days
+                            and time range)</span></div>
+                    <div class="box">
+                        <textarea rows="1" maxlength="100"></textarea>
+                        <div class="flex">
+                            <span class="black">Required</span>
+                            <span class="counter"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="white">
+                    <div class="label"><span>11. Add Attachment</span></div>
+                    <div class="flex-col font-black gap">
+                        <div class="upload-container" id="file-container">
+                            <input type="file" id="file_upload" multiple />
+                        </div>
+                        <div class="flex">
+                            <span class="black space">Required</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="label"><span>12. Declaration: â€œI hereby declare that all the information submitted by
+                            me
+                            in the application form is correct, true, and valid. I also agree to abide by all
+                            of Philips School of Music's policies from time to time." * Any kind of fee once
+                            paid is NOT refundable or adjustable under any circumstances.</span>
+                    </div>
+                    <div class="box">
+                        <input type="checkbox" name="Agreement" value="I Agree">
+                        <label for="Agreement" class="font-black"> I Agree</label><br>
+                        <div class="flex checkboxvalidate">
+                            <span class="black space">Required</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button type="button" id="btn1">Click Me</button>
+                    <!-- <input type="submit" value="Click me"> -->
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="circle">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path d="M54.63 246.6L192 109.3l137.4 137.4C335.6 252.9 343.8 256 352
+                       256s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 
+                       0-45.25l-160-160c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75
+                        0 45.25S42.13 259.1 54.63 
+                       246.6zM214.6 233.4c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75
+                        0 45.25s32.75 12.5 45.25 0L192 301.3l137.4 137.4C335.6 444.9 343.8 448 352
+                         448s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25L214.6 233.4z" />
+        </svg>
+    </div>
+    <footer>
+        <div>Answered <span id="QA">0</span> of 12</div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    position: relative;
+    margin:0;
+    border:0;
+    padding:0;
+    /* background-image: url(images/bg-3.jpg);*/
+     background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100vw;
+    font-family: 'Nunito Sans', sans-serif !important;
+    color:white;
+    overflow-x: hidden;
+    
+}
+/******************container************************/
+#container{
+    width:70%;
+    margin:auto;
+}
+#main-heading{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width:100%;
+}
+form .label{
+    background-color: #424242;
+    padding:10px 24px;
+    font-size: 20px;
+}
+form textarea{
+    width:100%;
+    padding: 2.5px 0px 0px;
+    resize:none;
+    margin-bottom:10px;
+    font-size:18px;
+    height:31px;
+    padding: 2.5px 0px 0px;
+    color: rgb(33, 33, 33);
+    border:0;
+    border-bottom: 1px solid rgb(224, 224, 224);;
+}
+form textarea:focus{
+    outline:none;
+    border-bottom: 1px solid black;
+}
+span.black{
+    color:black;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 8px;
+    background-color: rgb(232, 232, 232);
+}
+.white{
+    background-color:white;
+    margin:20px 10px;
+}
+.red{
+    background-color: rgb(244, 67, 54);
+    color: white;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+.font-black{
+    color:black;
+}
+.gap{
+    margin: 20px;
+}
+.space{
+    margin: 10px;
+}
+.box{
+    box-sizing: border-box;
+    padding:12px 24px 24px 24px;
+}
+.counter{
+    color:black;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+/**************************** Inputs **************************/
+
+input[type="radio"]{
+    width: 14px;
+    height: 14px;
+    border: solid 3px #fff;
+    border-radius: 12px;
+}
+input[type="radio"]:checked{
+    height:14px;
+    width:14px;
+    box-sizing: border-box;
+    padding: 5px;
+    accent-color: black;
+}
+input[type="checkbox"]:checked{
+    accent-color: black;
+}
+
+/*********************************** Upload-files *************************************/
+
+.upload-container {
+    position: relative;
+    margin: auto;
+}
+.upload-container input {
+    border: 1px solid #92b0b3;
+    background: #f1f1f1;
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    padding: 100px 0px 100px 250px;
+    text-align: center !important;
+    width: 500px;
+}
+.upload-container input:hover {
+    background: #ddd;
+}   
+.upload-container:before {
+    position: absolute;
+    bottom: 50px;
+    left: 245px;
+    content: " (or) Drag and Drop files here. ";
+    color: #3f8188;
+    font-weight: 900;
+}
+
+/*************************button-container*************************/
+.btn{
+    background-color: #515151;
+    border:0;
+    width:135px;
+    height:48px;
+    margin:50px; 
+    border-radius: 4px;  
+}
+.btn a{
+    font-family: 'Nunito Sans', sans-serif !important;
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+.btn-container{
+    margin:auto;
+}
+
+/**************************** PageUp and PageDown Button ****************************/
+
+.circle{
+    position: sticky;
+    bottom:100px;
+    width:70px;
+    height: 70px;
+    background-color:#313131;
+    border-radius: 50%;
+    float:right;
+    margin:10px 30px 10px 10px;
+}
+svg{
+    height:30px;
+    width:30px;
+    position: absolute;
+    top:30%;
+    left:30%;
+}
+svg path{
+    fill:#B1B1B1;
+}
+
+
+/********************** Footer *********************/
+
+footer{
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    width: 100vw;
+    height: 48px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    width:15%;
+    background-color: white;
+    color: black;
+    padding:4px 30px;
+    border-radius: 8px;
+}

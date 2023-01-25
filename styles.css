@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    border:0;
+    background-image: url("images/bg-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+}
+.box1{
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    border-radius:10px;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+    padding:20px;
+}
+.box1 h1{
+    font-size:38px
+}
+.box1 h3{
+    font-size:24px;
+    font-weight:400;
+}
+.box2{
+    margin-top:20px;
+}
+.box2 button{
+    background-color:black;
+    opacity: 0.9;
+    color: white;
+    height:30px;
+    width:120px;
+    font-size:18px;
+    border:none;
+    border-radius: 4px;
+}
+button:focus{
+    outline:none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    word-spacing: 1cm;
+}
+button:hover{
+    opacity:0.7;
+}
+a:hover{
+    color:yellow;    
+}
